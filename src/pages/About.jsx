@@ -1,6 +1,10 @@
-import { languages } from '../Data/languages'
+import { languages } from '../data/languages'
 import Gif from '../images/200w.gif'
 import '../styles/About.scss'
+
+
+const facebook = "https://www.facebook.com/profile.php?id=100028579554170"
+const github = "https://github.com/GiorgiNefaridze?tab=repositories"
 
 export default function About() {
     return (
@@ -16,11 +20,11 @@ export default function About() {
                         good feel when you solve it.
                     </p>
                     <div className='social-media'>
-                        <a class="btn btn-primary" style={{backgroundColor:"#4267B2"}} href="https://www.facebook.com/profile.php?id=100028579554170" role="button">
-                            <i class="fab fa-facebook me-2"></i>
+                        <a className="btn btn-primary" href={facebook} role="button">
+                            <i className="fab fa-facebook me-2"></i>
                         facebook</a>
-                        <a class="btn btn-primary" style={{backgroundColor:"#171515"}} href="https://github.com/GiorgiNefaridze?tab=repositories" role="button">
-                            <i class="fab fa-github me-2"></i>
+                        <a className="btn btn-primary github" href={github} role="button">
+                            <i className="fab fa-github me-2"></i>
                         GitHub</a>
                     </div>
                 </div>
@@ -28,10 +32,10 @@ export default function About() {
             <div className='about-container-skills'>
                 <span>Skills</span>
                 <div className='about-container-skills-inner'>
-                    {languages.map((item,index) => (
+                    {languages.map((language,index) => (
                         <div key={index} className='about-container-skills-inner-languages'>
-                            <img src={item.poster} alt={item.name} />
-                            <p>{item.name}</p>
+                            <img src={language.poster} alt={language.name} />
+                            <p>{language.name}</p>
                         </div>
                     ))}
                 </div>

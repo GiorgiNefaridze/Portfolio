@@ -44,6 +44,12 @@
                 height:auto;
                 flex-direction: row;
                 padding-inline: 0;
+                .fa-facebook{
+                    background-color: #4267B2;
+                }
+                .github{
+                    background-color: #171515;
+                }
                 a{
                     &:hover{
                         box-shadow:1px 1px 5px white;
