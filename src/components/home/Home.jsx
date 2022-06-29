@@ -1,8 +1,8 @@
-import Avatar from '../images/avatar.png';
-import GifOfStars from '../images/gifOfStar.gif'
-import Portfolio from '../images/portfolio.png';
-import Resume from '../images/resume.png';
-import '../styles/Home.scss'
+import Avatar from '../../images/avatar.png';
+import GifOfStars from '../../images/gifOfStar.gif'
+import Portfolio from '../../images/portfolio.png';
+import Resume from '../../images/resume.png';
+import './Home.scss'
 
 export default function Home() {
   return (

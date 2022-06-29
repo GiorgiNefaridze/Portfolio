@@ -1,6 +1,6 @@
-import { languages } from '../data/languages'
-import Gif from '../images/200w.gif'
-import '../styles/About.scss'
+import { languages } from '../../data/languages'
+import Gif from '../../images/200w.gif'
+import './About.scss'
 
 
 const facebook = "https://www.facebook.com/profile.php?id=100028579554170"

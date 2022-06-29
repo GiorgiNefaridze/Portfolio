@@ -1,5 +1,5 @@
-import { projects } from '../data/projects'
-import '../styles/Projects.scss';
+import { projects } from '../../data/projects';
+import './Projects.scss';
 
 export default function Projects() {
 
