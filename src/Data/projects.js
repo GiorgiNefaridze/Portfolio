@@ -18,7 +18,7 @@ export const projects = [
         name:'Todo List',
         poster:TodoList,
         codeURL:'https://github.com/GiorgiNefaridze/TodoList-Functional-Component',
-        liveVersion:'https://todo-app9.netlify.app'
+        liveVersion:'https://todoapp100.netlify.app/'
     },
     {
         id:Math.round(Math.random() * 1000),
