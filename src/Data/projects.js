@@ -3,6 +3,7 @@ import TodoList from '../images/todolist.png'
 import GYRSA from '../images/GYRSA.png'
 import Sell from '../images/sell.png'
 import JuiceBar from '../images/juicebar.png'
+import ResumeGenerator from '../images/resume-generator.png'
 
 
 export const projects = [
@@ -41,4 +42,11 @@ export const projects = [
         codeURL:'https://app.netlify.com/sites/sleepy-goldstine-88b5c3/overview',
         liveVersion:'https://sleepy-goldstine-88b5c3.netlify.app'
     },
+    {
+        id:Math.round(Math.random() * 1000),
+        name:'Resume Generator',
+        poster:ResumeGenerator,
+        codeURL:'https://github.com/GiorgiNefaridze/ol-academy-resume-generator-final-project/tree/develope',
+        liveVersion:'https://ola-resume-generator.netlify.app/'
+    }
 ]
