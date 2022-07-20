@@ -1,4 +1,4 @@
-import { languages } from '../../data/languages'
+import { languages } from '../../Data/languages'
 import Gif from '../../images/200w.gif'
 import './About.scss'
 

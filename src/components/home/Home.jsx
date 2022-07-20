@@ -1,6 +1,6 @@
 import Avatar from '../../images/avatar.png';
 import GifOfStars from '../../images/gifOfStar.gif'
-import Portfolio from '../../images/portfolio.png';
+import Portfolio from '../../assets/Resume.pdf';
 import Resume from '../../images/resume.png';
 import './Home.scss'
 
